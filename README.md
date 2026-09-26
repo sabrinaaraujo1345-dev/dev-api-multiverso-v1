@@ -1,14 +1,8 @@
 # multiverso-api — API Back-End
 
-API REST em **Python (Flask)** responsável por persistir os favoritos de
-personagens de Rick and Morty e por uma regra de negócio que busca os
-episódios de cada um. É o componente back-end do MVP de componentização,
-consumido pela [Interface](../multiverso-frontend).
-
-Não fala com nenhuma API externa na maior parte das rotas: a consulta ao
-Rick and Morty API para busca de personagem é feita pela Interface (no
-navegador). A exceção é a rota de episódios, que é a regra de negócio
-descrita abaixo.
+API REST desenvolvida em **Python (Flask)** para gerenciar os personagens favoritos do usuário e consultar os episódios relacionados a cada personagem na **Rick and Morty API**.
+Esta API é o **back-end do MVP de componentização** e é consumida pela [Interface](https://github.com/sabrinaaraujo1345-dev/app-frontend-multiverso-v1).
+A busca de personagens é realizada diretamente pela Interface, no navegador. Já essa API é responsável por **armazenar os favoritos** e **consultar os episódios no servidor**, concentrando essa regra de negócio no back-end.
 
 ## Autenticação
 

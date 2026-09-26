@@ -26,9 +26,6 @@ ORDENACOES_VALIDAS = {
 }
 
 # Autenticação simples por chave de API: protege as rotas de escrita
-# (POST/PUT/DELETE) do CRUD de favoritos. Não é um login completo, mas
-# cobre o requisito de "autenticação" como funcionalidade extra sem
-# adicionar a complexidade de um fluxo de usuário/senha para um MVP.
 API_KEY = "multiverso-mvp-2026"
 
 
